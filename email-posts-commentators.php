@@ -56,7 +56,7 @@ class Ashfame_Email_Posts_Commentators {
 				if ( $result ) {
 					echo '<div id="setting-error-settings_updated" class="updated settings-error"><p><strong>' . $result . ( $result == 1 ? ' Email ' : ' Emails ' ) . 'sent successfully!</strong></p></div>';
 				} else {
-					echo '<div id="setting-error-settings_updated" class="updated settings-error"><p><strong>Please check form input</strong></p></div>';
+					echo '<div id="setting-error-settings_updated" class="error settings-error"><p><strong>Please check form input</strong></p></div>';
 				}
 			}
 			?>
