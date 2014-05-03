@@ -31,7 +31,7 @@ class Ashfame_Email_Posts_Commentators {
 	public function add_scripts( $hook ) {
 		if ( $hook == $this->hook ) {
 			wp_enqueue_script( 'epc_chosen', plugins_url( 'chosen/chosen.jquery.js', __FILE__ ), array( 'jquery' ), null );
-			wp_enqueue_style( 'epic-chosen', plugins_url( 'chosen/chosen.css', __FILE__ ), array(), null );
+			wp_enqueue_style( 'epc-chosen', plugins_url( 'chosen/chosen.css', __FILE__ ), array(), null );
 		}
 	}
 
